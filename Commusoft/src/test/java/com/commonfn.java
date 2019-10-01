@@ -52,7 +52,7 @@ public class commonfn {
 	driver.findElementByXPath("//*[@id='successful-login']/span[1]").click();
 
 	  
-	  
+	  System.out.println("Text");
   }
 
 }
