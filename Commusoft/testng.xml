@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="sample">
+    <classes>
+ 
+      <class name="testscripts.SearchCustomer"/>
+
+        <class name="testscripts.WorkAddressviacustomer"/>
+   
+        <class name="testscripts.WAinvoiceaddress"/>
+        <class name="testscripts.Workaddressjob"/>
+        
+        <class name="testscripts.WAinvoiceFB"/>
+        
+        <class name="testscripts.ViewCustomerfromWA"/>
+		<class name="testscripts.CustomerJob"/>
+		<class name="testscripts.CustomerJobParts"/>
+		<class name="testscripts.FulfillPart"/>
+		<class name="testscripts.SearchJob"/>
+        <class name="testscripts.CustomerInvoice"/>
+     	<class name="testscripts.Customerinvoicepayment"/>
+
+  
+   
+    </classes>
+  </test> <!-- sample -->
+</suite> <!-- Suite -->

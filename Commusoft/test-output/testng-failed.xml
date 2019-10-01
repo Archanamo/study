@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="testscripts.WAinvoiceBC">
+        <methods>
+          <include name="wainvoicebc"/>
+        </methods>
+      </class> <!-- testscripts.WAinvoiceBC -->
+      <class name="testscripts.ViewCustomerfromWA">
+        <methods>
+          <include name="viewcustomerfromwa"/>
+        </methods>
+      </class> <!-- testscripts.ViewCustomerfromWA -->
+      <class name="testscripts.CustomerJob">
+        <methods>
+          <include name="customerjob"/>
+        </methods>
+      </class> <!-- testscripts.CustomerJob -->
+      <class name="testscripts.WAinvoiceFB">
+        <methods>
+          <include name="wainvoicefb"/>
+        </methods>
+      </class> <!-- testscripts.WAinvoiceFB -->
+      <class name="testscripts.CompanyContact">
+        <methods>
+          <include name="companycontact"/>
+        </methods>
+      </class> <!-- testscripts.CompanyContact -->
+      <class name="testscripts.Customerservicereminder">
+        <methods>
+          <include name="servicereminder"/>
+        </methods>
+      </class> <!-- testscripts.Customerservicereminder -->
+      <class name="testscripts.Customercontact">
+        <methods>
+          <include name="customercontact"/>
+        </methods>
+      </class> <!-- testscripts.Customercontact -->
+      <class name="testscripts.Customerinvoicepayment">
+        <methods>
+          <include name="payment"/>
+        </methods>
+      </class> <!-- testscripts.Customerinvoicepayment -->
+      <class name="testscripts.WAinvoiceaddress">
+        <methods>
+          <include name="wainvoiceaddress"/>
+        </methods>
+      </class> <!-- testscripts.WAinvoiceaddress -->
+      <class name="testscripts.CompanyJob">
+        <methods>
+          <include name="companyjob"/>
+        </methods>
+      </class> <!-- testscripts.CompanyJob -->
+      <class name="testscripts.Workaddressjob">
+        <methods>
+          <include name="workaddressjob"/>
+        </methods>
+      </class> <!-- testscripts.Workaddressjob -->
+      <class name="testscripts.CustomerJobParts">
+        <methods>
+          <include name="customerjobparts"/>
+        </methods>
+      </class> <!-- testscripts.CustomerJobParts -->
+      <class name="testscripts.WorkAddressviacustomer">
+        <methods>
+          <include name="workaddressviacustomer"/>
+        </methods>
+      </class> <!-- testscripts.WorkAddressviacustomer -->
+      <class name="testscripts.SearchCustomer">
+        <methods>
+          <include name="searchcustomer"/>
+        </methods>
+      </class> <!-- testscripts.SearchCustomer -->
+      <class name="testscripts.AddCompany">
+        <methods>
+          <include name="browser"/>
+          <include name="addcompany"/>
+        </methods>
+      </class> <!-- testscripts.AddCompany -->
+      <class name="testscripts.CustomerInvoice">
+        <methods>
+          <include name="customerinvoice"/>
+        </methods>
+      </class> <!-- testscripts.CustomerInvoice -->
+      <class name="testscripts.AddCustomer">
+        <methods>
+          <include name="addcustomer"/>
+        </methods>
+      </class> <!-- testscripts.AddCustomer -->
+      <class name="testscripts.FulfillPart">
+        <methods>
+          <include name="fulfillpart"/>
+        </methods>
+      </class> <!-- testscripts.FulfillPart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
